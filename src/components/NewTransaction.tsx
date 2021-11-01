@@ -54,7 +54,7 @@ export const NewTransaction = ({ onAddNewTransaction }: Props) => {
   return (
     <>
       <h3>Add New Transaction</h3>
-            <hr />
+      <hr />
       <div className="newTransaction">
         <div className="description">
           <hr />
