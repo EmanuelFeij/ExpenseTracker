@@ -14,7 +14,7 @@ const Income = (transaction: Transaction) => {
       key={transaction.description + "$transaction.value"}
     >
       <p className="description-span">{transaction.description}</p>
-      <p className="value-span">{transaction.value}€</p>
+      <p className="value-span">+{transaction.value}€</p>
     </div>
   </div>
   )
