@@ -1,0 +1,36 @@
+.history-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.historyItemContainerGreen {
+    border-radius: 10px;
+    margin :10px;
+    width: 60%;
+    background-color : green;
+}
+.historyItem{
+    background-color :white;
+    width: 98%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction : row;
+    justify-content: space-around;
+    border-top: solid 1px;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+}
+
+
+.historyItemContainerRed {
+    margin :10px;
+    border-radius: 10px;
+    width: 60%;
+    background-color : red;
+}
